@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Candy Machine UI"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/basic.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Bored Sloth Club</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <body>
+    
+      <!--=============== HEADER ===============-->
+      <header class="header" id="header">
+          <nav class="nav container">
+              <a href="#" class="nav__logo">
+                  <img src="assets/img/basic.png" alt="">
+              </a>
+
+              <div class="nav__menu" id="nav-menu">
+                  <ul class="nav__list">
+                      <li class="nav__item">
+                          <a href="#home" class="nav__link active-link">Home</a>
+                      </li>
+                      <li class="nav__item">
+                          <a href="#specs" class="nav__link">Road map
+                          </a>
+                      </li>
+                      <li class="nav__item">
+                          <a href="#products" class="nav__link">Our team</a>
+                      </li>
+                  </ul>
+
+                  <div class="nav__close" id="nav-close">
+                      <i class="ri-close-line"></i>
+                  </div>
+              </div>
+
+              <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-function-line"></i>
+              </div>
+          </nav>
+      </header>
+
+      <main class="main">
+          <!--=============== HOME ===============-->
+          <section class="home section" id="home">
+              <div class="home__container container grid">
+                  <div>
+                      <img src="assets/img/basic.png" alt="" class="specs__img">
+                  </div>
+                 
+                 
+                  <div class="home__data">
+                      <div class="home__header">
+                          <h1 class="home__title">Bored</h1>
+                          <h2 class="home__subtitle">Sloth Club</h2>
+                      </div>
+
+                      <div class="home__footer">
+                          <h3 class="home__title-description">Overview</h3>
+                          <p class="home__description">We are the new generation of scalable NFT on Solana Blockchain
+                          </p>
+                          
+                      </div>
+                      
+                  </div>
+                  
+              </div>
+              <div id="root"></div>
+          </section>
+          
+          <!--=============== SPONSOR ===============-->
+          <section class="sponsor section">
+              <div class="sponsor__container container grid">
+                  <img src="https://cryptologos.cc/logos/solana-sol-logo.png" alt="" class="sponsor__img">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/NFT_Icon.png/600px-NFT_Icon.png" alt="" class="sponsor__img">
+              </div>
+          </section>
+
+          <!--=============== SPECS ===============-->
+          <section class="specs section grid" id="specs">
+              <h2 class="section__title section__title-gradient">Road Map</h2>
+
+             <!--=== <div class="specs__container container grid">
+                  <div class="specs__content grid">
+                      <div class="specs__data">
+                          <i>1</i>
+                          <h3 class="specs__title">Connection</h3>
+                          <span class="specs__subtitle">Bluetooth v5.2</span>
+                      </div>
+  
+                      <div class="specs__data">
+                          <i>2</i>
+                          <h3 class="specs__title">Battery</h3>
+                          <span class="specs__subtitle">Duration 40h</span>
+                      </div>
+  
+                      <div class="specs__data">
+                          <i>3</i>
+                          <h3 class="specs__title">Load</h3>
+                          <span class="specs__subtitle">Fast charge 4.2-AAC</span>
+                      </div>
+  
+                      <div class="specs__data">
+                          <i>4</i>
+                          <h3 class="specs__title">Microphone</h3>
+                          <span class="specs__subtitle">Supports Apple Siri <br> and Google</span>
+                      </div>
+                  </div>
+                  
+                  <div>
+                      <img src="assets/img/414.png" alt="" class="specs__img">
+                  </div>
+              </div>
+          </section>==-->
+
+         
+
+          <!--=============== PRODUCTS ===============-->
+          <section class="products section" id="products">
+              <h2 class="section__title section__title-gradient products__line">
+                  Our <br>Team
+              </h2>
+
+              <div class="products__container container grid">
+                  <article class="products__card">
+                      <div class="products__content">
+                          <img src="assets/img/antoine.png" alt="" class="products__img">
+  
+                          <h3 class="products__title">AntoineC</h3>
+                          <span class="products__price">Owner</span>
+  
+                          
+                      </div>
+                  </article>
+                  <article class="products__card">
+                      <div class="products__content">
+                          <img src="assets/img/PixelHunta.png" alt="" class="products__img">
+  
+                          <h3 class="products__title">PixelHunta</h3>
+                          <span class="products__price">Co-Owner</span>
+  
+                          
+                      </div>
+                  </article>
+                  <article class="products__card">
+                      <div class="products__content">
+                          <img src="assets/img/.png" alt="" class="products__img">
+  
+                          <h3 class="products__title">Stedgyork_</h3>
+                          <span class="products__price">Main Designer</span>
+  
+                          
+                      </div>
+                  </article>
+                  
+              </div>
+          </section>
+      </main>
+
+      
+      <!--=============== SCROLL UP ===============-->
+      <a href="#" class="scrollup" id="scroll-up">
+          <i class="ri-arrow-up-s-line scrollup__icon"></i>
+      </a>
+      
+      <!--=============== SCROLL REVEAL ===============-->
+      <script src="https://unpkg.com/scrollreveal"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+  </body>
+</html>
